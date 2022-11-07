@@ -20,10 +20,21 @@ p {
     margin-top: 2rem;
 }
 
+.btn-danger:hover{
+    background-color: purple !important;
+    color: black;
+    transition: all 0.3s ease 0s;
+    transform: translateY(-3px);
+}
+
 .pictures {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 50%;
     margin-top: 3rem;
+}
+
+.flying-cat{
+    width: 5%;
 }
