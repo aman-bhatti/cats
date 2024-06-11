@@ -70,7 +70,7 @@ function getCats() {
   catsDiv.innerHTML = "";
 
   // Randomly decide whether to show a local cat image or an API cat image
-  if (Math.random() < 0.05) {
+  if (Math.random() < 0.02) {
     getLocalCats();
   } else {
     getApiCat();
